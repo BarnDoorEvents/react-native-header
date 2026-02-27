@@ -1,5 +1,47 @@
 
 
+## 1.1.0 (2026-02-27)
+
+
+### Features
+
+* absolute headers ([#16](https://github.com/codeherence/react-native-header/issues/16)) ([1816333](https://github.com/codeherence/react-native-header/commit/1816333d38b9346bfa7e9e67bb3d9e0cd30babeb))
+* add LargeHeaderSubtitleComponent ([160ff01](https://github.com/codeherence/react-native-header/commit/160ff01d31feea6d32c4668e9858c506d8c36a30))
+* add new arch/Expo 54 support ([#48](https://github.com/codeherence/react-native-header/issues/48)) ([e7d0687](https://github.com/codeherence/react-native-header/commit/e7d068756a1b47d8e933aacea1a4572018708a58)), closes [#44](https://github.com/codeherence/react-native-header/issues/44) [#44](https://github.com/codeherence/react-native-header/issues/44)
+* add prop disableAutoFixScroll to disable/enable auto scroll adjustment ([e5f96be](https://github.com/codeherence/react-native-header/commit/e5f96be22357a8f404eb1c4db1a03967f14624a2))
+* add support for MasonryFlashlist ([#39](https://github.com/codeherence/react-native-header/issues/39)) ([52ba9a3](https://github.com/codeherence/react-native-header/commit/52ba9a33fb03104c2a96c8ad74d4e103f4ff47c6))
+* add SurfaceComponent prop to header ([#10](https://github.com/codeherence/react-native-header/issues/10)) ([ac7dfde](https://github.com/codeherence/react-native-header/commit/ac7dfde4c7452d835ec85f94120e7e6ce2e8357c))
+* added SectionList support ([#2](https://github.com/codeherence/react-native-header/issues/2)) ([004ce4e](https://github.com/codeherence/react-native-header/commit/004ce4e6f7c4cad11bf63281a19e0bf8d6f10f18))
+* better support inverted virtualized lists ([#19](https://github.com/codeherence/react-native-header/issues/19)) ([0ee68ba](https://github.com/codeherence/react-native-header/commit/0ee68bad596c82f857e38ac1c2e223ea6065b363))
+* elease config ([3eca7d2](https://github.com/codeherence/react-native-header/commit/3eca7d2506191793321899b1e7a7337756c64c6b))
+* introduce bottom border color interpolation ([5069e90](https://github.com/codeherence/react-native-header/commit/5069e90cd8356c14c2ed6beac772a62adb9a1bae))
+* introduce header fade-in threshold ([#17](https://github.com/codeherence/react-native-header/issues/17)) ([9017593](https://github.com/codeherence/react-native-header/commit/9017593d3fcdcc1c7138dcdee7a853177e1a565e))
+* introduce Shopify's FlashList component ([#13](https://github.com/codeherence/react-native-header/issues/13)) ([1dac45f](https://github.com/codeherence/react-native-header/commit/1dac45f1a745641baf7633ad99cd4a2dc28dab22))
+* upload gif ([2bbb2a8](https://github.com/codeherence/react-native-header/commit/2bbb2a838223aa4c5a2892060c6efe7182e89ec9))
+* use user-provided onScroll ([#22](https://github.com/codeherence/react-native-header/issues/22)) ([f8718b4](https://github.com/codeherence/react-native-header/commit/f8718b4d6436e6ef48c82b61330eae57fa99eab4))
+
+
+### Bug Fixes
+
+* allow for scrollIndicatorInsets to be supplied to scroll containers ([#18](https://github.com/codeherence/react-native-header/issues/18)) ([3dda369](https://github.com/codeherence/react-native-header/commit/3dda3695e660ea3e2d7d838163eae0808a176b5f))
+* allows header container styles overriding ([3bcec8b](https://github.com/codeherence/react-native-header/commit/3bcec8b43dd5422d48b89d0267a14b59d7644106))
+* allows header style overriding ([fc8ffc5](https://github.com/codeherence/react-native-header/commit/fc8ffc5082b832e92a532fbfd85591c1527f76fa))
+* api and allow for onScrollBeginDrag, onScrollEndDrag and more to be supplied ([6e98e70](https://github.com/codeherence/react-native-header/commit/6e98e70256703ebf429db185644662e48cb62c88))
+* auto scroll fix ([92e47cf](https://github.com/codeherence/react-native-header/commit/92e47cf5aac70a4dc5f9eef20f7291d475f8bb69))
+* ensure large header subtitle doesn't rely on large header ([d29e42c](https://github.com/codeherence/react-native-header/commit/d29e42c3382c27227b724b3ddefa4c0df30eb22f))
+* failing CI deployment ([e7cb7c9](https://github.com/codeherence/react-native-header/commit/e7cb7c9a1935809b148a00630534e12e72dd83e9))
+* flashlist inverted handling ([#49](https://github.com/codeherence/react-native-header/issues/49)) ([58cf837](https://github.com/codeherence/react-native-header/commit/58cf837d01ba6a66fbeb3b67007a23ff3b29550b))
+* header center flash when views are mounted ([b119350](https://github.com/codeherence/react-native-header/commit/b119350ae091e65c63641d24628ae024b14a787c))
+* increase android blur opacity slightly ([d5decae](https://github.com/codeherence/react-native-header/commit/d5decaed33f6bec5049555bcfddd10d17ba4b41d))
+* missing import in tutorial ([b7aa031](https://github.com/codeherence/react-native-header/commit/b7aa031831505024db0a71707fe3c9ef7c87ce82))
+* release version inconsistency ([8ce4999](https://github.com/codeherence/react-native-header/commit/8ce4999def7aa779c567a2e3859102fd7194ba0b))
+* release version inconsistency ([c16293e](https://github.com/codeherence/react-native-header/commit/c16293ea8c940c6248bd1a811346deb500825f6b))
+* remove useScrollViewOffset offset in favor of useAnimatedScrollHandler ([#3](https://github.com/codeherence/react-native-header/issues/3)) ([7f704bb](https://github.com/codeherence/react-native-header/commit/7f704bb42f4776279a29e038dc7397241fb2142a))
+* scrollview padding top inconsistency ([#26](https://github.com/codeherence/react-native-header/issues/26)) ([2b23bf7](https://github.com/codeherence/react-native-header/commit/2b23bf78597a936f73c19f205a1ea0a9a01f0c02))
+* twitter example for android & improve performance ([#7](https://github.com/codeherence/react-native-header/issues/7)) ([4ccc6d6](https://github.com/codeherence/react-native-header/commit/4ccc6d64a6a4d95faf3f788cee3ecc037bc003ff))
+* update components for react-native-reanimated 4 compatibility ([45a8b2b](https://github.com/codeherence/react-native-header/commit/45a8b2b841aa46847a7cc8d0af0c96981b4c3186))
+* update docs workflow ([bc4cc89](https://github.com/codeherence/react-native-header/commit/bc4cc8917d775d1b270cff1001b2feac5173b774))
+
 ## [1.0.0](https://github.com/codeherence/react-native-header/compare/v1.0.0-rc.1...v1.0.0) (2025-09-29)
 
 ## [1.0.0-rc.1](https://github.com/codeherence/react-native-header/compare/v1.0.0-rc.0...v1.0.0-rc.1) (2025-09-17)
